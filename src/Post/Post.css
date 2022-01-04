@@ -1,0 +1,27 @@
+.card{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin: 30px;
+    border: none;
+    
+    transition: all .3s linear;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+.img{ 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: none;
+
+}
+.title{
+    font-weight: bolder;
+    
+}
+
+.card-foot{
+    font-weight: 500;
+}
