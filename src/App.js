@@ -1,13 +1,28 @@
 import './App.css';
-import FeaturedPost from './FeaturedPost/FeaturedPost';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Post from './Post/Post';
+
+import Registration from './Registration/Registration';
+import Login from './Login/Login';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AllBlogs from './Allblogs/AllBlogs';
+import Home from './Home/Home';
+
+
 function App() {
   return (
     <div className="App">
-    
-       <FeaturedPost></FeaturedPost>
-      <Post></Post>
+     <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Home" element={<Home/>}/>
+          <Route path="/allblogs" element={<AllBlogs/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path={"/registration"} element={<Registration/>}/>
+          
+        </Routes>
+      </BrowserRouter>
+       
     </div>
   );
 }

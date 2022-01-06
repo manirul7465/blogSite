@@ -25,3 +25,11 @@
 .card-foot{
     font-weight: 500;
 }
+
+.button{
+    background-color: rgb(240, 165, 25);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}

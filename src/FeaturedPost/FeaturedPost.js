@@ -13,9 +13,7 @@ const FeaturedPost = () => {
                         src="https://i.ibb.co/Gt8fsxH/stefan-stefancik-0w-Mmx-NB6-Xzc-unsplash.jpg"
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                       
-                    </Carousel.Caption>
+                   
                 </Carousel.Item>
                 <Carousel.Item>
                     <img style={{height:"600px"}}
@@ -24,9 +22,7 @@ const FeaturedPost = () => {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
-                        
-                    </Carousel.Caption>
+             
                 </Carousel.Item>
                 <Carousel.Item>
                     <img style={{height:"600px"}}
@@ -36,7 +32,7 @@ const FeaturedPost = () => {
                     />
 
                     <Carousel.Caption>
-                        
+                       
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -43,17 +43,17 @@ const Post = () => {
                         <h3 className='title' style={{textAlign:"left",marginLeft:"10px"}}>
                             {post.description}
                         </h3>
-                        <div style={{display:"flex",margin:"20px"}}>
+                        <Row xs={1} md={2} lg={3} style={{margin:"30px",textAlign:"left"}}>
                             <small className='card-foot'>
                                 17 july
                             </small>
-                            <small className='card-foot' style={{marginLeft:"20px"}}>
+                            <small className='card-foot'>
                                 .8 MINS READ
                             </small>
-                            <small className='card-foot' style={{marginLeft:"20px"}}>
+                            <small className='card-foot' >
                                .12K VIEWS
                             </small>
-                        </div>
+                        </Row>
                     </Card>
 
 
